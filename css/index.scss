@@ -201,8 +201,10 @@ main{
         }
     }
     .add2{
+        display: block;
         width: 100%;
         position: relative;
+        margin-top: calc(40rem/64);
         img{
             width: 100%;
             height: calc(74rem*2/64);
@@ -225,10 +227,72 @@ main{
         padding-left: calc(18rem/64);
         padding-right: calc(28rem/64);
         box-sizing: border-box;
+        position:relative;
+        box-sizing: border-box;
+        margin-top: calc(36rem/64);
+        height: calc(93rem*2/64);
+        &:before{
+            content: "自由行";
+            width: calc(88rem/64);
+            height: calc(32rem/64);
+            background-color: #667384;
+            color: #fff;
+            text-align: center;
+            line-height: calc(32rem/64);
+            border-radius: 0px 0px 10px 0px;
+            position: absolute;
+            left:calc(18rem/64);
+            top: 0px;
+            z-index: 10;
+        }
+        &:after{
+            content: "扬州出发";
+            width: calc(200rem/64);
+            height: calc(17rem*2/64);
+            text-align: center;
+            line-height: calc(17rem*2/64);
+            color: #fff;
+            background-color: #667384;
+            position: absolute;
+            left: calc(18rem/64);
+            bottom: calc(16rem/64);
+        }
         img{
             width: calc(200rem/64);
             height: calc(85rem*2/64);
+            position: relative;
+            float: left;
+            margin-right: calc(30rem/64);
 
+        }
+        p{
+            margin-bottom: calc(20rem*2/64);
+            color: #333;
+            overflow : hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+        }
+        span{
+            color: #ccc;
+        }
+        s{
+            padding-left: calc(225rem/64);
+            margin-top: calc(12rem/64);
+            display: block;
+            color: red;
+            font-size: calc(24rem/64);
+            position: relative;
+            &:after{
+                content: "";
+                width: calc(600rem/64);
+                height: calc(2rem/64);
+                background-color: #ccc;
+                position: absolute;
+                bottom:calc(-12rem*2/64);
+                left: 0px;
+            }
         }
     }
 }

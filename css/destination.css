@@ -1,0 +1,257 @@
+.top {
+  width: 100%;
+  height: calc(70rem/64);
+  background-color: #fff;
+  font-size: calc(40rem/64);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  border-bottom: calc(2rem/64) solid #ddd;
+}
+
+.top h2 {
+  float: left;
+}
+
+.top i {
+  float: right;
+  font-size: calc(40rem/64);
+  color: #00be88;
+}
+
+.top a {
+  float: left;
+  color: #00be88;
+  font-size: calc(60rem/64);
+}
+
+.top h2 {
+  margin-left: calc(200rem/64);
+  margin-top: calc(12rem/64);
+}
+
+.top i {
+  margin-right: calc(27rem/64);
+  margin-top: calc(15rem/64);
+}
+
+.sousuo {
+  margin-top: calc(70rem/64);
+  width: 100%;
+  height: calc(85rem/64);
+  background-color: #fff;
+  border-bottom: calc(2rem/64) solid #ddd;
+  padding-left: calc(18rem/64);
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.sousuo .sousuo-left {
+  float: left;
+  margin-top: calc(28rem/64);
+  margin-right: calc(20rem/64);
+  height: 100%;
+}
+
+.sousuo .sousuo-left span {
+  font-size: calc(25rem/64);
+  margin-right: calc(10rem/64);
+}
+
+.sousuo .sousuo-left i {
+  font-size: calc(10rem/64);
+  color: #00be88;
+}
+
+.sousuo .sousuo-right {
+  float: left;
+  width: calc(485rem/64);
+  height: calc(53rem/64);
+  margin-top: calc(20rem/64);
+  border-radius: 20px;
+  border: none;
+  background-color: #f2f3f7;
+  position: relative;
+}
+
+.sousuo i {
+  font-size: calc(50rem/64);
+}
+
+.sousuo input {
+  position: absolute;
+  height: 100%;
+  border: none;
+  background-color: transparent;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  padding-bottom: calc(505rem/64);
+  margin-bottom: calc(50rem*2/64);
+}
+
+.main-left {
+  width: calc(125rem/64);
+  height: 100%;
+  position: absolute;
+  background-color: #fff;
+}
+
+.main-left ul {
+  width: 100%;
+}
+
+.main-left li {
+  width: calc(125rem/64);
+  height: calc(90rem/64);
+  text-align: center;
+  line-height: calc(90rem/64);
+  border-bottom: calc(2rem/64) solid #ddd;
+  background-color: #fff;
+}
+
+.main-left li:nth-child(1) {
+  background-color: #f6f7fb;
+  color: #00be88;
+}
+
+.main-right {
+  width: 100%;
+  height: 100%;
+  padding-left: calc(150rem/64);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main-right ul {
+  width: 100%;
+  overflow: hidden;
+}
+
+.main-right li {
+  width: calc(220rem/64);
+  height: calc(145rem/64);
+  float: left;
+  margin-top: calc(18rem/64);
+  position: relative;
+}
+
+.main-right li:nth-child(2n) {
+  margin-left: calc(20rem/64);
+}
+
+.main-right li img {
+  width: 100%;
+  border-radius: calc(10rem/64);
+}
+
+.main-image {
+  width: calc(220rem/64);
+  height: calc(145rem/64);
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.font {
+  width: calc(220rem/64);
+  height: calc(145rem/64);
+  color: #fff;
+  position: absolute;
+  z-index: 10;
+  top: calc(20rem/64);
+  text-align: center;
+  padding-top: calc(20rem/64);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: calc(22rem/64);
+}
+
+.font p {
+  font-weight: 600;
+}
+
+.tuijian {
+  width: 100%;
+  margin-top: calc(30rem/64);
+}
+
+.tuijian h3 {
+  margin-bottom: calc(10rem/64);
+}
+
+.tuijian i {
+  color: #00be88;
+  font-size: calc(30rem/64);
+}
+
+.tuijian span {
+  font-size: calc(30rem/64);
+  font-weight: 600;
+}
+
+.tuijian ul {
+  width: 100%;
+}
+
+.tuijian ul li {
+  width: calc(143rem/64);
+  height: calc(50rem/64);
+  background-color: #fff;
+  border-radius: calc(10rem/64);
+  text-align: center;
+  line-height: calc(50rem/64);
+  margin-right: calc(15rem/64);
+}
+
+.tuijian ul li:nth-child(2n) {
+  margin-left: 0px;
+}
+
+.bottom {
+  width: 100%;
+  background-color: #fff;
+  height: calc(50rem*2/64);
+  padding-top: calc(10rem*2/64);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.bottom ul {
+  width: 100%;
+  overflow: hidden;
+}
+
+.bottom a {
+  color: #999;
+  text-decoration: none;
+  list-style: none;
+  font-size: calc(24rem/64);
+}
+
+.bottom a i {
+  font-size: calc(30rem/64);
+}
+
+.bottom li {
+  width: 20%;
+  float: left;
+  text-align: center;
+}
+
+.bottom li:nth-child(2) a {
+  color: #03bf97;
+}
+/*# sourceMappingURL=destination.css.map */

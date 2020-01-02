@@ -231,6 +231,9 @@ main{
         box-sizing: border-box;
         margin-top: calc(36rem/64);
         height: calc(93rem*2/64);
+        &:last-child i{
+            width: 0rem;
+        }
         &:before{
             content: "自由行";
             width: calc(88rem/64);
@@ -258,12 +261,12 @@ main{
             bottom: calc(16rem/64);
         }
         img{
+            display: block;
             width: calc(200rem/64);
             height: calc(85rem*2/64);
             position: relative;
             float: left;
             margin-right: calc(30rem/64);
-
         }
         p{
             margin-bottom: calc(20rem*2/64);
@@ -276,6 +279,7 @@ main{
         }
         span{
             color: #ccc;
+            font-size:calc(20rem/64) ;
         }
         s{
             padding-left: calc(225rem/64);
@@ -284,15 +288,132 @@ main{
             color: red;
             font-size: calc(24rem/64);
             position: relative;
-            &:after{
-                content: "";
+        }
+        i{
                 width: calc(600rem/64);
                 height: calc(2rem/64);
                 background-color: #ccc;
                 position: absolute;
-                bottom:calc(-12rem*2/64);
-                left: 0px;
-            }
+                bottom:calc(-7rem*2/64);
+                left:calc(24rem/64);
         }
+    }
+}
+.caini{
+    margin-top: calc(30rem/64);
+    background-color: #edf0f5;
+    box-sizing: border-box;
+    overflow: hidden;
+    h3{
+        text-align: center;
+        font-size: calc(16rem*2/64);
+        margin-bottom: calc(10rem/64);
+        margin-top: calc(20rem/64);
+    }
+    div{
+        width: 45%;
+        margin-top: calc(20rem/64);
+        background-color: #fff;
+        float: left;
+        overflow: hidden;
+        position: relative;
+        padding-bottom: calc(24rem/64);
+        margin-left: calc(10rem/64);
+        &:nth-child(2n){
+            margin-left: calc(20rem/64);
+            margin-right: calc(15rem/64);
+        }
+        &:before{
+            content: "自由行";
+            width: calc(100rem/64);
+            height: calc(40rem/64);
+            background-color: #667384;
+            color: #fff;
+            text-align: center;
+            line-height: calc(40rem/64);
+            border-radius: 0px 0px 10px 0px;
+            position: absolute;
+            left:0px;
+            top: 0px;
+            z-index: 10;
+        }
+        img{
+            width: 100%;
+            margin-bottom: calc(16rem/64);
+        }
+        p{
+            overflow : hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        font-size: calc(28rem/64);
+        margin-bottom: calc(20rem/64);
+        margin-left: calc(14rem/64);
+        margin-right: calc(14rem/64);
+        }
+        span{
+            color: red;
+            float: left;
+            margin-left: calc(12rem/64);
+        }
+        s{
+            float: right;
+            color: #ccc;
+            margin-right: calc(28rem/64);
+        }
+    }
+}
+.footer{
+    background-color: #edf0f5;
+    width: 100%;
+    text-align: center;
+    padding-top: calc(100rem/64);
+    padding-bottom: calc(100rem/64);
+    margin-bottom: calc(50rem*2/64);
+
+    p{
+        text-align: center;
+        color: #ccc;
+    }
+    i{
+        font-size: calc(40rem/64);
+        color: #ccc;
+        font-family: "楷体";
+    }
+ 
+}
+.bottom{
+    width: 100%;
+    background-color: #fff;
+    height: calc(50rem*2/64);
+    padding-top: calc(10rem*2/64);
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    ul{
+        
+        width: 100%;
+        overflow: hidden;
+    }
+    a{
+        color: #999;
+        text-decoration: none;
+        list-style: none;
+        font-size: calc(24rem/64);
+        i{
+            font-size: calc(30rem/64);
+        }
+    }
+    li{
+        width: 20%;
+        float: left;
+        text-align: center;
+        &:first-child a{
+            color: #03bf97;
+        }
+      
     }
 }

@@ -1,0 +1,332 @@
+@charset "UTF-8";
+html, body {
+  height: 100%;
+}
+
+.top {
+  width: 100%;
+  height: calc(256rem/64);
+  background-image: url(../image/top-bg.png);
+  background-repeat: no-repeat;
+  padding-top: calc(90rem/64);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+  position: relative;
+}
+
+.top p {
+  text-align: center;
+  color: #fff;
+  padding-bottom: calc(27rem/64);
+  font-size: calc(26rem/64);
+}
+
+.top a {
+  display: block;
+  width: calc(248rem/64);
+  height: calc(60rem/64);
+  background-color: #00be88;
+  border-radius: 10px;
+  text-align: center;
+  color: #fff;
+  font-size: calc(26rem/64);
+  line-height: calc(60rem/64);
+  margin-left: calc(193rem/64);
+  text-decoration: none;
+}
+
+.top i {
+  position: absolute;
+  top: calc(43rem/64);
+  right: calc(24rem/64);
+  color: #fff;
+  font-size: calc(40rem/64);
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  background-color: #f2f4f6;
+}
+
+.jifen {
+  margin-left: calc(24rem/64);
+  width: calc(592rem/64);
+  height: calc(84rem/64);
+  position: absolute;
+  top: calc(222rem/64);
+  background-color: #fff;
+  border-radius: calc(5rem/64);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-shadow: 0px 0px calc(5rem/64) #ccc;
+          box-shadow: 0px 0px calc(5rem/64) #ccc;
+}
+
+.jifen:after {
+  content: "兑好礼";
+  width: calc(88rem/64);
+  height: calc(25rem/64);
+  background-color: #c7b28c;
+  color: #fff;
+  padding-left: calc(5rem/64);
+  padding-right: calc(5rem/64);
+  border-radius: 0px 0px 0px 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.jifen a {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  line-height: calc(84rem/64);
+  padding-right: calc(60rem/64);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.jifen a span {
+  display: block;
+  float: left;
+  margin-left: calc(80rem/64);
+  color: #333;
+}
+
+.jifen a i {
+  display: block;
+  float: left;
+  margin-top: calc(2rem/64);
+}
+
+.huiyuan {
+  width: calc(592rem/64);
+  height: calc(78rem/64);
+  margin-top: calc(70rem/64);
+  background-image: -webkit-gradient(linear, left top, right top, from(#fffcf5), to(#fff));
+  background-image: linear-gradient(to right, #fffcf5, #fff);
+  margin-left: calc(25rem/64);
+  padding-top: calc(23rem/64);
+  padding-left: calc(23rem/64);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.huiyuan i {
+  display: block;
+  background-color: #383838;
+  width: calc(50rem/64);
+  height: calc(35rem/64);
+  color: #ffeac1;
+  text-align: center;
+  line-height: calc(35rem/64);
+  border-radius: calc(5rem/64);
+  float: left;
+}
+
+.huiyuan p {
+  font-size: calc(26rem/64);
+  font-weight: 700;
+  float: left;
+  margin-left: calc(10rem/64);
+}
+
+.huiyuan span {
+  color: #c1a56f;
+  float: left;
+  margin-left: calc(17rem/64);
+  font-size: calc(24rem/64);
+}
+
+.dingdan {
+  margin-top: calc(20rem/64);
+  width: calc(592rem/64);
+  overflow: hidden;
+  background-color: #fff;
+  margin-left: calc(25rem/64);
+}
+
+.dingdan .dingdan-top {
+  padding-top: calc(20rem/64);
+  padding-left: calc(26rem/64);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: hidden;
+  padding-bottom: calc(20rem/64);
+  border-bottom: 1px solid #f3f3f3;
+}
+
+.dingdan .dingdan-top h3 {
+  float: left;
+  color: #999;
+}
+
+.dingdan .dingdan-top p {
+  float: left;
+  color: #333;
+  margin-left: calc(20rem/64);
+}
+
+.dingdan .dingdan-top i {
+  float: right;
+  margin-right: calc(30rem/64);
+}
+
+.dingdan ul {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.dingdan ul li {
+  text-align: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  float: left;
+  padding-bottom: calc(50rem/64);
+}
+
+.dingdan ul li i {
+  display: block;
+  width: calc(48rem/64);
+  height: calc(52rem/64);
+  background-size: calc(48rem/64);
+  background-image: url(../image/user-icon.png);
+  margin-left: calc(53rem/64);
+  margin-top: calc(33rem/64);
+}
+
+.dingdan ul li:nth-child(2) i {
+  background-position: 0px calc(-46rem/64);
+}
+
+.dingdan ul li:nth-child(3) i {
+  background-position: 0px calc(-92rem/64);
+}
+
+.dingdan ul li:nth-child(4) i {
+  background-position: 0px calc(-143rem/64);
+}
+
+.nav {
+  width: calc(592rem/64);
+  margin-left: calc(25rem/64);
+  margin-top: calc(22rem/64);
+  background-color: #fff;
+}
+
+.nav ul {
+  width: 100%;
+  overflow: hidden;
+  padding-bottom: calc(50rem/64);
+  margin-bottom: calc(12rem/64);
+}
+
+.nav li {
+  width: 25%;
+  float: left;
+  margin-top: calc(27rem/64);
+  text-align: center;
+}
+
+.nav li i {
+  display: block;
+  width: calc(50rem/64);
+  height: calc(45rem/64);
+  background-image: url(../image/user-icon.png);
+  background-size: calc(50rem/64);
+  margin-left: calc(50rem/64);
+  margin-bottom: calc(20rem/64);
+}
+
+.nav li:nth-child(1) i {
+  background-position: 0px calc(-200rem/64);
+}
+
+.nav li:nth-child(2) i {
+  background-position: 0px calc(-250rem/64);
+}
+
+.nav li:nth-child(3) i {
+  background-position: 0px calc(-300rem/64);
+}
+
+.nav li:nth-child(4) i {
+  background-position: 0px calc(-350rem/64);
+}
+
+.nav li:nth-child(5) i {
+  background-position: 0px calc(-400rem/64);
+}
+
+.nav li:nth-child(6) i {
+  background-position: 0px calc(-450rem/64);
+}
+
+.nav li:nth-child(7) i {
+  background-position: 0px calc(-500rem/64);
+}
+
+.nav li:nth-child(8) i {
+  background-position: 0px calc(-550rem/64);
+}
+
+.nav li:nth-child(9) i {
+  background-position: 0px calc(-600rem/64);
+}
+
+.nav li:nth-child(10) i {
+  background-position: 0px calc(-650rem/64);
+}
+
+.nav li:nth-child(11) i {
+  background-position: 0px calc(-700rem/64);
+}
+
+.bottom {
+  width: 100%;
+  background-color: #fff;
+  height: calc(50rem*2/64);
+  padding-top: calc(10rem*2/64);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  background-color: #f7f7f7;
+  border-top: calc(2rem/64) solid #ddd;
+}
+
+.bottom ul {
+  width: 100%;
+  overflow: hidden;
+}
+
+.bottom a {
+  color: #999;
+  text-decoration: none;
+  list-style: none;
+  font-size: calc(24rem/64);
+}
+
+.bottom a i {
+  font-size: calc(30rem/64);
+}
+
+.bottom li {
+  width: 20%;
+  float: left;
+  text-align: center;
+}
+
+.bottom li:last-child a {
+  color: #03bf97;
+}
+/*# sourceMappingURL=member.css.map */

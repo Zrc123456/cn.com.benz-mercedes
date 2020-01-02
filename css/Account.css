@@ -1,0 +1,120 @@
+html, body {
+  height: 100%;
+}
+
+.top {
+  overflow: hidden;
+  padding-top: calc(25rem/64);
+  padding-left: calc(27rem/64);
+  padding-right: calc(27rem/64);
+}
+
+.top a {
+  color: #00be88;
+  font-size: calc(50rem/64);
+  float: left;
+}
+
+.top h3 {
+  float: right;
+}
+
+.top h3 a {
+  color: #333;
+  font-size: calc(30rem/64);
+}
+
+.touxiang {
+  margin-top: calc(40rem/64);
+}
+
+.touxiang img {
+  width: calc(113rem/64);
+  margin-left: calc(250rem/64);
+}
+
+.jiemian .zhanghao, .jiemian .password {
+  overflow: hidden;
+  margin-left: calc(50rem/64);
+  margin-right: calc(50rem/64);
+  border-bottom: calc(2rem/64) solid #ccc;
+}
+
+.jiemian .zhanghao i, .jiemian .password i {
+  float: right;
+  display: block;
+  width: calc(196rem/64);
+  height: calc(55rem/64);
+  border: calc(2rem/64) solid #ccc;
+  border-radius: calc(20rem/64);
+  text-align: center;
+  line-height: calc(55rem/64);
+  color: #999;
+  margin-top: calc(25rem/64);
+}
+
+.jiemian .password {
+  margin-bottom: calc(25rem/64);
+}
+
+.jiemian input {
+  width: calc(200rem/64);
+  display: block;
+  height: calc(65rem/64);
+  border: none;
+  margin-top: calc(35rem/64);
+}
+
+.jiemian input:first-child {
+  float: left;
+}
+
+.shuoming {
+  margin-left: calc(50rem/64);
+  margin-top: calc(25rem/64);
+  color: #999;
+}
+
+.denglu {
+  margin-top: calc(72rem/64);
+  width: calc(539rem/64);
+  height: calc(73rem/64);
+  background-color: #a4e8d5;
+  border-radius: calc(35rem/64);
+  text-align: center;
+  margin-left: calc(52rem/64);
+}
+
+.denglu a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: calc(73rem/64);
+  font-size: calc(20rem/64);
+  color: #fff;
+}
+
+.foot {
+  width: 100%;
+  color: #777;
+  position: absolute;
+  bottom: calc(50rem/64);
+}
+
+.foot li {
+  width: 33.33%;
+  float: left;
+  text-align: center;
+  position: relative;
+}
+
+.foot li:nth-child(-n+2):before {
+  content: "";
+  width: calc(4rem/64);
+  height: calc(22rem/64);
+  position: absolute;
+  background-color: #bebfc0;
+  right: 0;
+  top: calc(10rem/64);
+}
+/*# sourceMappingURL=Account.css.map */

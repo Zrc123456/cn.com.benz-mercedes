@@ -73,6 +73,7 @@ main {
   background-repeat: no-repeat;
   background-size: calc(450rem/64);
   margin-left: calc(90rem/64);
+  background-repeat: no-repeat;
 }
 
 .huodong {
@@ -210,6 +211,7 @@ main {
   background-size: calc(450rem/64);
   margin-left: calc(90rem/64);
   background-position: 0rem calc(-42rem*2/64);
+  background-repeat: no-repeat;
 }
 
 .huodong_2 {
@@ -356,6 +358,7 @@ main {
   background-size: calc(450rem/64);
   margin-left: calc(90rem/64);
   background-position: 0rem calc(-90rem*2/64);
+  background-repeat: no-repeat;
 }
 
 .huodong_3 {

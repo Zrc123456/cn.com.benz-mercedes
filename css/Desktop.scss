@@ -1,0 +1,265 @@
+.top{
+    width: 100%;
+    height: calc(73rem/64);
+    position: fixed;
+    top: 0;
+    border-bottom: calc(2rem/64) solid #f3f3f3;;
+    overflow: hidden;
+    z-index: 10;
+    background-color: #fff;;
+    
+    a{
+        display: block;
+        font-size: calc(50rem/64);
+        margin-top: calc(10rem/64);
+        margin-left: calc(10rem/64);
+        color: #00be88;
+        float: left;
+    }
+    h3{
+        float: left;
+        margin-left: calc(170rem/64);
+        margin-top: calc(16rem/64);
+        font-size: calc(40rem/64);
+    }
+    span{
+        display: block;
+        float: right;
+        color: #00be88;
+        margin-top: calc(20rem/64);
+        margin-right: calc(20rem/64);
+        font-size: calc(35rem/64);
+    }
+}
+.quanyi{
+    width: 100%;
+    margin-top: calc(73rem/64);
+    background-color: #fff;
+}
+.quanyi-top{
+    width: 100%;
+    height: calc(223rem/64);
+    background-image: url(../image/vip-info-on.png);
+    padding-top: calc(80rem/64);
+    padding-left: calc(85rem/64);
+    box-sizing: border-box;
+    background-size: 100%;
+    text-align: left;
+    h3{
+        font-size: calc(40rem/64);
+        color: #ffeab6;
+        font-weight: 550;
+        margin-bottom: calc(20rem/64);
+    }
+    p{
+        color: #ffeab6;
+        font-weight: 550;
+        font-size: calc(25rem/64);
+    }
+}
+.quanyi-center{
+    h2{
+        margin-top: calc(30rem/64);
+        font-size: calc(35rem/64);
+        font-weight: 550;
+        text-align: center;
+        background-image: url(../image/vip-tit.png);
+        background-repeat: no-repeat;
+        background-size: 50%;
+        background-position: calc(78rem*2/64) 0px;
+    }
+    ul{
+        width: 100%;
+        
+    }
+    li{
+        width: 33.33%;
+        float: left;
+        text-align: center;
+        img{
+            margin-top: calc(24rem/64);
+            width: calc(70rem/64);
+            margin-bottom: calc(24rem/64);
+        }
+    }
+    button{
+        width: calc(432rem/64);
+        height: calc(66rem/64);
+        text-align: center;
+        font-size:calc(35rem/64);
+        font-weight: 550;
+        background-image: linear-gradient(to right,#ffd99c,#ffeac0);
+        border: none;
+        border-radius: calc(30rem/64);
+        margin-top: calc(39rem/64);
+        margin-left: calc(104rem/64);
+    }
+}
+.add{
+    width: 100%;
+    margin-top: calc(24rem/64);
+    position: relative;
+    &:before{
+        content: "";
+        width: calc(40rem*2/64);
+        height: calc(16rem*2/64);
+        background-image: url(../image/i-ad.png);
+        background-size: calc(40rem*2/64);
+        position: absolute;
+        right: 0;
+        top: 0;
+
+    }
+    img{
+        width: 100%;
+    }
+}
+.libao{
+    width: 100%;
+    background-color: #fff;
+    padding-top: calc(26rem/64);
+    .libao-top{
+        overflow: hidden;
+        width: 100%;
+        padding-left: calc(23rem/64);
+        padding-right: calc(23rem/64);
+        box-sizing: border-box;
+        h3{
+            font-size: calc(35rem/64);
+            color: #333;
+            font-weight: 550;
+            float: left;
+        }
+        span{
+            float: right;
+            color: #999;
+            font-size: calc(30rem/64);
+        }
+    }
+    img{
+        margin-top: calc(27rem/64);
+        width: 100%;
+        padding-left: calc(23rem/64);
+        padding-right: calc(23rem/64);
+        box-sizing: border-box;
+        margin-bottom: calc(24rem/64);
+    }
+    a{
+        display: block;
+        width: 100%;
+        height: calc(80rem/64);
+        border-top: calc(2rem/64)  solid #f3f3f3;
+        text-align: center;
+        font-size: calc(30rem/64);
+        color: #bfa26a;
+        line-height: calc(88rem/64);
+
+    }
+}
+.jifen{
+    margin-top: calc(20rem/64);
+}
+.sp-top{
+    width: 100%;
+    height: calc(68rem/64);
+    background-color: #fff;
+    border-top:calc(1rem/64) solid #f8f9fb;
+    border-bottom:calc(1rem/64) solid #f8f9fb;
+    line-height: calc(68rem/64);
+    padding-left: calc(26rem/64);
+    box-sizing: border-box;
+    a{
+        margin-right: calc(53rem/64);
+        color: #333;
+        font-size: calc(30rem/64);
+        position: relative;
+        &:nth-child(1){
+            color: #bfa26a;
+        }
+        &:nth-child(1):after{
+            content: "";
+            width:calc(60rem/64);
+            height: calc(2*2rem/64);
+            background-color: #bfa26a;
+            position:absolute;
+            bottom: calc(-8rem*2/64);
+            left: calc(12rem*2/64);
+
+        }
+    }
+}
+.sp-content{
+    padding-top: calc(25rem/64);
+    padding-left: calc(25rem/64);
+    padding-right: calc(25rem/64);
+    box-sizing: border-box;
+    li{
+        width: 100%;
+        height: calc(185rem/64);
+        padding-top: calc(20rem/64);
+        padding-bottom: calc(20rem/64);
+        &:nth-child(-n+2){
+            border-bottom: calc(2rem/64) solid #ddd;
+        }
+        img{
+            width: calc(196rem/64);
+            height: calc(170rem/64);
+            float: left;
+            margin-right: calc(28rem/64);
+        }
+        p{
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            line-height: 1.2;
+            font-size: calc(26rem/64);
+        }
+        span{
+            color: #bfa26a;
+            display: block;
+            margin-top: calc(12rem/64);
+            margin-bottom: calc(30rem/64);
+            font-size: calc(26rem/64);
+        }
+        b{  
+            display: block;
+            color: red;
+            margin-top: calc(20rem/64);
+            float: left;
+            font-size: calc(30rem/64);
+        }
+        i{
+            display: block;
+            width: calc(133rem/64);
+            height: calc(50rem/64);
+            background-image: linear-gradient(to right,#ffd99c,#ffe9bf);
+            text-align: center;
+            line-height: calc(50rem/64);
+            float: right;
+            color: #333;
+        }
+    }
+}
+.kaitong{
+    display: block;
+    width: 100%;
+    height: calc(80rem/64);
+    border-top: calc(2rem/64)  solid #ddd;
+    text-align: center;
+    font-size: calc(30rem/64);
+    color: #bfa26a;
+    line-height: calc(88rem/64);
+}
+.foot{
+    width: 100%;
+    height: calc(118rem/64);
+    p{
+        text-align: center;
+        line-height: calc(118rem/64);
+        font-size: calc(30rem/64);
+        color: #ccc;
+        font-family: "楷体";
+    }
+}

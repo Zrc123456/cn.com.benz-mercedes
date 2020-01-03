@@ -86,7 +86,7 @@ main {
   width: calc(88rem*2/64);
   height: calc(31rem*2/64);
   background-image: url(../upload/menu.png);
-  background-position: 0px -29px;
+  background-position: 0px calc(-29rem*2/64);
   background-size: 100%;
   text-align: center;
   line-height: calc(30rem*2/64);
@@ -224,7 +224,7 @@ main {
   width: calc(88rem*2/64);
   height: calc(31rem*2/64);
   background-image: url(../upload/menu.png);
-  background-position: 0px -29px;
+  background-position: 0px calc(-29rem*2/64);
   background-size: 100%;
   text-align: center;
   line-height: calc(30rem*2/64);
@@ -371,7 +371,7 @@ main {
   width: calc(88rem*2/64);
   height: calc(31rem*2/64);
   background-image: url(../upload/menu.png);
-  background-position: 0px -29px;
+  background-position: 0px calc(-29rem*2/64);
   background-size: 100%;
   text-align: center;
   line-height: calc(30rem*2/64);
@@ -398,7 +398,7 @@ main {
   width: calc(88rem*2/64);
   height: calc(31rem*2/64);
   background-image: url(../upload/menu.png);
-  background-position: 0px -29px;
+  background-position: 0px calc(-29rem*2/64);
   background-size: 100%;
   text-align: center;
   line-height: calc(30rem*2/64);
@@ -447,7 +447,7 @@ main {
   width: calc(88rem*2/64);
   height: calc(31rem*2/64);
   background-image: url(../upload/menu.png);
-  background-position: 0px -29px;
+  background-position: 0px calc(-29rem*2/64);
   background-size: 100%;
   text-align: center;
   line-height: calc(30rem*2/64);

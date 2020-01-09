@@ -51,6 +51,7 @@
           box-sizing: border-box;
   background-size: 100%;
   text-align: left;
+  background-repeat: no-repeat;
 }
 
 .quanyi-top h3 {
@@ -301,4 +302,4 @@
   color: #ccc;
   font-family: "楷体";
 }
-/*# sourceMappingURL=Desktop.css.map */
+/*# sourceMappingURL=desktop.css.map */

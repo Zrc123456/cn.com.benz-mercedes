@@ -402,6 +402,7 @@ main .add2 i {
 .caini div img {
   width: 100%;
   margin-bottom: calc(16rem/64);
+  height: calc(210rem/64);
 }
 
 .caini div p {
